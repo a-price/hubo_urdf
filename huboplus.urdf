@@ -30,7 +30,7 @@
     <inertial>
       <mass value="0.374251"/>
       <inertia ixx="0.00164033" ixy="-1.08171e-07" ixz="-9.53978e-05" iyy="0.00153943" iyz="1.25376e-06" izz="0.00190393"/>
-      <origin xyz="0.0106886 -3.00864e-05 0.032123"/>
+      <origin xyz="0.0106886 -3.00864e-05 0.088123"/>
     </inertial>
     <visual>
       <geometry>
@@ -489,7 +489,7 @@
   <link name="Body_RSR">
     <inertial>
       <mass value="0.413368"/>
-      <inertia ixx="0.000269283" ixy="-4.52571e-07" ixz="3.23662e-06" iyy="0.00037679" iyz="-9.93935e-07" izz="0.000360355"/>
+      <inertia ixx="-0.000269283" ixy="-4.52571e-07" ixz="3.23662e-06" iyy="0.00037679" iyz="-9.93935e-07" izz="0.000360355"/>
       <origin xyz="-0.036208 8.31243e-05 -0.00126685"/>
     </inertial>
     <visual>
@@ -1147,7 +1147,7 @@
     </collision>
   </link>
   <joint name="HNR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.0122581 0.0024526 0.196935"/>
+    <origin rpy="0 -0 0" xyz="0.0122581 0.0024526 0.27196935"/>
     <parent link="Body_Torso"/>
     <child link="Body_HNR"/>
     <axis xyz="1 0 0"/>
@@ -1168,7 +1168,7 @@
     <limit effort="10.0" lower="-3.14158" upper="3.14158" velocity="1.0"/>
   </joint>
   <joint name="LSR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.0269 0.072 0"/>
+    <origin rpy="0.34906585039 -0 0" xyz="0.0269 0.072 0"/>
     <parent link="Body_LSP"/>
     <child link="Body_LSR"/>
     <axis xyz="1 0 0"/>
@@ -1315,7 +1315,7 @@
     <limit effort="10.0" lower="-3.14158" upper="3.14158" velocity="1.0"/>
   </joint>
   <joint name="RSR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.0269 -0.072 0"/>
+    <origin rpy="-0.34906585039 -0 0" xyz="0.0269 -0.072 0"/>
     <parent link="Body_RSP"/>
     <child link="Body_RSR"/>
     <axis xyz="1 0 0"/>
