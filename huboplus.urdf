@@ -20,7 +20,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="file:////home/hubo/fuerte_workspace/sandbox/hubo_urdf/dae/Body_Torso_col.dae"/>
+        <mesh filename="package://hubo_urdf/dae/Body_Torso_col.dae"/>
       </geometry>
     </collision>
   </link>
