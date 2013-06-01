@@ -1147,7 +1147,7 @@
     </collision>
   </link>
   <joint name="HNR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.0122581 0.0024526 0.27196935"/>
+    <origin rpy="0 0.05 0" xyz="0.0122581 0.0024526 0.230"/> <!--Note: modified -->
     <parent link="Body_Torso"/>
     <child link="Body_HNR"/>
     <axis xyz="1 0 0"/>
